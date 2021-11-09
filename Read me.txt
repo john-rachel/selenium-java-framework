@@ -1,0 +1,13 @@
+
+This is a simple Java-selenium framework.Used with testng for execution
+
+Build type: Maven project type
+
+This projects contains core, pages, script directories.
+Core contains the generic and base class.
+Script file has to be extended to Base class
+
+Initiate execution : testng xml
+
+Report: Folder contains the results
+

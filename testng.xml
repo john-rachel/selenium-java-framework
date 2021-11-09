@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="POC suite" preserve-order="true">
+    <parameter name="browserType" value="chrome"/>
+	<parameter name="executionType" value="localhost"/>
+	<parameter name="driverPath" value="WebDriverFiles\\"/>	
+ <parameter name="baseUrl" value="https://www.vivino.com/"/>  
+			
+	<test name="Testing Vivino">	
+		<classes>				       
+      <class name="scripts.SearchWine">
+          <!-- <methods>
+             <include name="createFund"></include>  
+            <include name="createDossier"></include>   -->     
+            <include name="callSoapDynamicISIN"></include>    
+           <!--   <include name="callSoapExistISIN"></include>    
+            </methods>-->
+          </class>
+		</classes>		
+	</test>
+</suite>
